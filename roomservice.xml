@@ -4,6 +4,7 @@
   <remote name="t25" fetch="https://github.com/TelegramAt25" />
   <remote name="LOS" fetch="https://github.com/LineageOS" />
   <remote name="kona" fetch="https://github.com/xiaomi-sm8250-devs" />
+  <remote name="Khalvat" fetch="https://github.com/Khalvat-M" />
 
   <!-- device tree -->
   <project path="device/xiaomi/thyme" name="android_device_xiaomi_thyme" remote="t25" revision="axion-23.0" />
@@ -21,6 +22,6 @@
   <project path="vendor/xiaomi/thyme" name="proprietary_vendor_xiaomi_thyme" remote="t25" revision="lineage-22.2" />
 
   <!-- common vendor tree -->
-  <project path="vendor/xiaomi/sm8250-common" name="proprietary_vendor_xiaomi_sm8250-common" remote="kona" revision="lineage-22.2" />
+  <project path="vendor/xiaomi/sm8250-common" name="proprietary_vendor_xiaomi_sm8250-common" remote="Khalvat" revision="lineage-23.0" />
 
 </manifest>
